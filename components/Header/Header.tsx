@@ -34,7 +34,7 @@ const Header = () => {
               alt="Flowbite Logo"
             />
           </Navbar.Brand>
-          <Navbar.Toggle />
+          <Navbar.Toggle className="bg-white" />
           <Navbar.Collapse>
             <Navbar.Link
               href="/"

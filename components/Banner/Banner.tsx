@@ -3,7 +3,7 @@ import styles from "./Banner.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import banner_img from "../../public/banner_img.png";
-import next_logo from "../../public/next.svg";
+import next_logo from "../../public/next.png";
 import TS from "../../public/typescript.png";
 import js_svg_icon from "../../public/js.svg.png";
 import bg_banner from "../../public/banner.jpg";
