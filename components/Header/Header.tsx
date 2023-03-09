@@ -30,29 +30,29 @@ const Header = () => {
           <Navbar.Brand href="/">
             <Image
               src={header_logo}
-              className="mr-3 w-11"
+              className={`mr-3 ${styles.logoImg}`}
               alt="Flowbite Logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle className="bg-white" />
           <Navbar.Collapse>
             <Navbar.Link
-              href="/"
+              href="#banner"
               active={true}
               className={styles.header_links && styles.header_linksActive}
             >
               Home
             </Navbar.Link>
-            <Navbar.Link href="#" className={styles.header_links}>
+            <Navbar.Link href="#process" className={styles.header_links}>
               Process
             </Navbar.Link>
-            <Navbar.Link href="#" className={styles.header_links}>
+            <Navbar.Link href="#about" className={styles.header_links}>
               About
             </Navbar.Link>
-            <Navbar.Link href="#" className={styles.header_links}>
+            <Navbar.Link href="#portfolio" className={styles.header_links}>
               Portfolio
             </Navbar.Link>
-            <Navbar.Link href="#" className={styles.header_links}>
+            <Navbar.Link href="#contact" className={styles.header_links}>
               Contact
             </Navbar.Link>
           </Navbar.Collapse>

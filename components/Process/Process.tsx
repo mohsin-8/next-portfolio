@@ -10,7 +10,7 @@ import process_three from "../../public/process_three.svg";
 
 const Process = () => {
   return (
-    <div className={styles.process}>
+    <div className={styles.process} id="process">
         <div className="container mx-auto">
             <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-7'>
                 <div className={styles.process_content}>

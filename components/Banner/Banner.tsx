@@ -10,7 +10,7 @@ import bg_banner from "../../public/banner.jpg";
 
 const Banner = () => {
   return (
-    <div className={styles.banner}>
+    <div className={styles.banner} id="banner">
       <Image src={bg_banner} className={styles.bgbannerImg} alt="bg_banner" />
       <div className="container mx-auto">
         <div

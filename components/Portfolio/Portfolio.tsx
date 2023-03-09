@@ -11,7 +11,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 const Portfolio = () => {
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.portfolio} id="portfolio">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
           <div className={styles.portfolio_content}>

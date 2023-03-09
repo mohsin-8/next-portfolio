@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <Image src={brushesImg} className={styles.brushes_Img} alt="brushesImg" />
       <Image src={brushes2} className={styles.brushes2_Img} alt="brushesImg" />
       <div className="container mx-auto">

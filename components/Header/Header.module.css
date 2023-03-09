@@ -31,6 +31,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.logoImg {
+  width: 150px;
+}
+
 /* header resposnive */
 
 @media (max-width: 1440px) {
@@ -43,10 +47,22 @@
   .header {
     padding: 25px 25px;
   }
+
+  .logoImg {
+    width: 120px;
+  }
+
+  .header_links {
+    margin: 0;
+  }
 }
 
 @media (max-width: 575px) {
   .header {
     padding: 10px 25px;
+  }
+
+  .logoImg {
+    width: 100px;
   }
 }
