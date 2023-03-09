@@ -16,11 +16,6 @@ const Banner = () => {
         <div
           className={`grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-12 flex items-center
             ${styles.banner_container}`}
-          // style={{
-          //   maxWidth: "1230px",
-          //   margin: "auto",
-          //   marginTop: "100px",
-          // }}
         >
           <div className={styles.banner_content}>
             <h3>Hello, I&apos;m</h3>
