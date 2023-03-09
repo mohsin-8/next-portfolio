@@ -77,3 +77,59 @@
   width: auto;
   height: auto;
 }
+
+@media (max-width: 1199px) {
+  .portfolio {
+    margin: 120px auto 50px auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolio {
+    margin: 120px 30px 50px 30px;
+  }
+
+  .portfolio_content h3 {
+    font-size: 38px;
+  }
+
+  .portfolio_content span {
+    font-size: 25px;
+  }
+
+  .portfolio_content p {
+    font-size: 15px;
+  }
+
+  .port_box h1 {
+    font-size: 17px;
+  }
+
+  .port_box .websiteLink {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio_content p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .portfolio_content h3 {
+    font-size: 25px;
+  }
+
+  .portfolio_content span {
+    font-size: 20px;
+  }
+
+  .port_box .websiteLink {
+    font-size: 14px;
+  }
+
+  .portfolio {
+    margin: 120px 30px 0px 30px;
+  }
+}
