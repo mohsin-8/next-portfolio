@@ -6,34 +6,36 @@ import header_logo from "../../public/logo.png";
 import Image from 'next/image';
 
 const Header = () => {
-  const [clientWindowHeight, setClientWindowHeight] = useState("");
-  const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
-  const [boxShadow, setBoxShadow] = useState(0);
+  // const [clientWindowHeight, setClientWindowHeight] = useState("");
+  // const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
+  // const [boxShadow, setBoxShadow] = useState(0);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // });
 
-  const handleScroll = () => {
-    setClientWindowHeight(window.scrollY);
-  };
+  // const handleScroll = () => {
+  //   setClientWindowHeight(window.scrollY);
+  // };
 
-  useEffect(() => {
-    let backgroundTransparacyVar = clientWindowHeight / 600;
+  // useEffect(() => {
+  //   let backgroundTransparacyVar = clientWindowHeight / 600;
 
-    if (backgroundTransparacyVar < 1) {
-      let boxShadowVar = backgroundTransparacyVar * 0.1;
-      setBackgroundTransparacy(backgroundTransparacyVar);
-      setBoxShadow(boxShadowVar);
-    }
-  }, [clientWindowHeight]);
+  //   if (backgroundTransparacyVar < 1) {
+  //     let boxShadowVar = backgroundTransparacyVar * 0.1;
+  //     setBackgroundTransparacy(backgroundTransparacyVar);
+  //     setBoxShadow(boxShadowVar);
+  //   }
+  // }, [clientWindowHeight]);
   
   return (
-   <div className={styles.header}  style={{
-    background: `rgba(64,68,85, ${backgroundTransparacy})`,
-    boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
-  }}>
+   <div className={styles.header}
+  //    style={{
+  //   background: `rgba(64,68,85, ${backgroundTransparacy})`,
+  //   boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
+  // }}
+  >
       <div className="container mx-auto">
           <Navbar
           className={styles.header_nav}
