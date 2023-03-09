@@ -18,13 +18,13 @@ const About = () => {
                 </div>
 
                 <div className={styles.about_content}>
-                    <span>I'm a Developer</span>
+                    <span>I&apos;m a Developer</span>
                     <h3>
                         I Can Develop Anything <br /> You Want
                     </h3>
 
                     <p>
-                        Hello there! I'm a Web App Developer, and I'm very passionate and dedicated to my work. 
+                        Hello there! I&apos;m a Web App Developer, and I&apos;m very passionate and dedicated to my work. 
                         With 1 years experience as a professional Web App Developer, I have acquired the skills 
                         and knowledge necessary to make your project a success. I enjoy every step of the 
                         design process, from discussion and collaboration.

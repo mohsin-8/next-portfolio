@@ -23,7 +23,7 @@ const Banner = () => {
           // }}
         >
           <div className={styles.banner_content}>
-            <h3>Hello, I'm</h3>
+            <h3>Hello, I&apos;m</h3>
 
             <h1>Mohsin Ali Khan</h1>
 
@@ -40,7 +40,7 @@ const Banner = () => {
               <p
                 className={`text-2xl font-light text-white ${styles.banner_text}`}
               >
-                I'm creative NextJs Frontend Developer based in Karachi, and I'm
+                I&apos;m creative NextJs Frontend Developer based in Karachi, and I&apos;m
                 very passionate and dedicated to my work.
               </p>
             </div>
