@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Banner.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import banner_img from "../../public/banner_img.png";
+import banner_img from "../../public/mohsin-01.png";
 import next_logo from "../../public/next.png";
 import TS from "../../public/typescript.png";
 import js_svg_icon from "../../public/js.svg.png";
@@ -41,7 +41,7 @@ const Banner = () => {
             </div>
 
             <div className={`${styles.mainBtnDiv} mt-16 lg:mt-10`}>
-              <Link href="#" className="orangeBtn">
+              <Link href="#about" className="orangeBtn">
                 About Me
               </Link>
             </div>
